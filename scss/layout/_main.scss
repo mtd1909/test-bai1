@@ -32,6 +32,11 @@
   }
   .trusted {
     padding-bottom: 30px;
+    .title-box {
+      .title-box__subtitle {
+        padding: 0 15px;
+      }
+    }
     .trusted-wrap {
       position: relative;
       padding: 90px 0;

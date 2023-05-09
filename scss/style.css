@@ -678,6 +678,9 @@ button {
 .main .trusted {
   padding-bottom: 30px;
 }
+.main .trusted .title-box .title-box__subtitle {
+  padding: 0 15px;
+}
 .main .trusted .trusted-wrap {
   position: relative;
   padding: 90px 0;
