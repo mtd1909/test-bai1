@@ -1,0 +1,19 @@
+.button {
+  padding: 11px 12px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: $colorWhite;
+  cursor: pointer;
+  transition: all 0.3s;
+  &:hover {
+    opacity: 0.8;
+  }
+  &-purple {
+    background-color: #616AE8;
+  }
+  &-green {
+    background-color: #20E5A7;
+    padding: 11px 14px;
+  }
+}

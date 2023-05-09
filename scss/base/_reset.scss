@@ -1,0 +1,95 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $fontPrimary;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: $colorText;
+  background: #fff;
+  @media (max-width: 767px) {
+    font-size: 13px;
+  }
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $colorTitle;
+}
+
+h2 {
+  font-size: 30px;
+  @media (max-width: 767px) {
+    font-size: 24px;
+  }
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s;
+  cursor: pointer;
+  &:hover {
+    color: $colorPrimary;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+}
+
+button {
+  font-family: $fontPrimary;
+  border: none;
+}
+
+.header__overlay {
+  transition: all 0.5s ease;
+  &.show-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #333;
+    z-index: 2;
+    opacity: 0.5;
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0,-100%,0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0,0,0);
+  }
+}

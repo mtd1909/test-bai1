@@ -1,0 +1,20 @@
+.title-box {
+  text-align: center;
+  margin-bottom: 25px;
+  @media (max-width: 767px) {
+    margin-bottom: 10px;
+  }
+  .title-box__title {
+    margin-bottom: 20px;
+    @media (max-width: 767px) {
+      margin-bottom: 10px;
+    }
+    span {
+      color: $colorPrimary;
+    }
+  }
+  .title-box__subtitle {
+    max-width: 621px;
+    margin: 0 auto;
+  }
+}

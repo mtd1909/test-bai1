@@ -1,0 +1,66 @@
+.features-box {
+  background-color: $colorWhite;
+  padding: 30px;
+  border-radius: 20px;
+  margin: 15px 0;
+  @media (max-width: 767px) {
+    padding: 15px;
+  }
+  .features-box__icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    @media (max-width: 767px) {
+      width: 40px;
+      height: 40px;
+    }
+    &.orange {
+      background-color: #FD9B9B;
+    }
+    &.purple {
+      background-color: #B06BF1;
+    }
+    &.mint {
+      background-color: #45CCDB;
+    }
+    &.blue {
+      background-color: #545CF0;
+    }
+    &.pink {
+      background-color: #F16BAC;
+    }
+    &.green {
+      background-color: #48DE57;
+    }
+    i {
+      position: absolute;
+      color: $colorWhite;
+      font-size: 26px;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      @media (max-width: 767px) {
+        font-size: 18px;
+      }
+    }
+  }
+  .features-box__title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    @media (max-width: 767px) {
+      margin-top: 20px;
+    }
+  }
+  .features-box__content {
+    @media (max-width: 1439px) {
+      min-height: 90px;
+    }
+    @media (max-width: 1199px) {
+      min-height: 113px;
+    }
+    @media (max-width: 767px) {
+      min-height: unset;
+    }
+  }
+}
