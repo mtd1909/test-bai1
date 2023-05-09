@@ -1,0 +1,53 @@
+.wrapper {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s;
+  cursor: pointer;
+  &:hover {
+    color: $colorPrimary;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+}
+
+button {
+  font-family: $fontPrimary;
+  border: none;
+}
+
+.header__overlay {
+  transition: all 0.5s ease;
+  &.show-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #333;
+    z-index: 2;
+    opacity: 0.5;
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0,-100%,0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0,0,0);
+  }
+}

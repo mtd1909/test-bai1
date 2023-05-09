@@ -3,15 +3,16 @@
 
 //Base
 @import './base/_reset.scss';
-@import './base/_grid.scss';
+@import './base/_normalize.scss';
 
 //Components
 @import './components/_button.scss';
-@import './components/_text-box.scss';
-@import './components/_title-box.scss';
-@import './components/_features-box.scss';
-@import './components/_posts-box.scss';
+@import './components/_textBox.scss';
+@import './components/_titleBox.scss';
+@import './components/_featuresBox.scss';
+@import './components/_postsBox.scss';
 
 //Layout
 @import './layout/_header.scss';
 @import './layout/_main.scss';
+@import './layout/_grid.scss';
