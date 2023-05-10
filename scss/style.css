@@ -580,10 +580,10 @@ button {
   margin: auto;
   padding: 0 15px;
 }
-.container.container-small {
+.container.container--small {
   max-width: 1270px;
 }
-.container.container-medium {
+.container.container--medium {
   max-width: 1309px;
 }
 

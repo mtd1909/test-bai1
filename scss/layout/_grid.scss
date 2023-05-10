@@ -2,10 +2,10 @@
   max-width: 1440px;
   margin: auto;
   padding: 0 15px;
-  &.container-small {
+  &.container--small {
     max-width: 1270px;
   }
-  &.container-medium {
+  &.container--medium {
     max-width: 1309px;
   }
 }
