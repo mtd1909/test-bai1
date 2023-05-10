@@ -16,22 +16,22 @@
     left: -40px;
     z-index: -1;
   }
-  &.pink {
+  &.text-box--pink {
     &:before {
       background-color: #FBE9E9;
     }
   }
-  &.mint {
+  &.text-box--mint {
     &:before {
       background-color: #E7FAF9;
     }
   }
-  &.purple {
+  &.text-box--purple {
     &:before {
       background-color: #F5ECFD;
     }
   }
-  &.blue {
+  &.text-box--blue {
     &:before {
       background-color: #E7EFFB;
     }
