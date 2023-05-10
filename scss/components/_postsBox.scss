@@ -27,22 +27,3 @@
     }
   }
 }
-.decor {
-  position: absolute;
-  left: 0;
-  bottom: -6px;
-  display: flex;
-  .decor__rectangle {
-    color: $colorWhite;
-    font-size: 13px;
-    font-weight: 500;
-    padding: 3px 15px;
-    background-color: $colorPrimary;
-  }
-  .decor__triangle {
-    width: 0;
-    height: 0;
-    border-bottom: 19px solid #393F96;
-    border-right: 12px solid transparent;
-  }
-}

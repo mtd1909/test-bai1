@@ -109,10 +109,10 @@ button {
 .button:hover {
   opacity: 0.8;
 }
-.button--purple {
+.button.button--purple {
   background-color: #616AE8;
 }
-.button--green {
+.button.button--green {
   background-color: #20E5A7;
   padding: 11px 14px;
 }
@@ -299,26 +299,6 @@ button {
   font-size: 4px;
 }
 
-.decor {
-  position: absolute;
-  left: 0;
-  bottom: -6px;
-  display: flex;
-}
-.decor .decor__rectangle {
-  color: #ffffff;
-  font-size: 13px;
-  font-weight: 500;
-  padding: 3px 15px;
-  background-color: #5E68F9;
-}
-.decor .decor__triangle {
-  width: 0;
-  height: 0;
-  border-bottom: 19px solid #393F96;
-  border-right: 12px solid transparent;
-}
-
 .section {
   position: relative;
 }
@@ -339,6 +319,26 @@ button {
     width: 100%;
     border-radius: 0;
   }
+}
+
+.decor {
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  display: flex;
+}
+.decor .decor__rectangle {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 3px 15px;
+  background-color: #5E68F9;
+}
+.decor .decor__triangle {
+  width: 0;
+  height: 0;
+  border-bottom: 19px solid #393F96;
+  border-right: 12px solid transparent;
 }
 
 .header {
