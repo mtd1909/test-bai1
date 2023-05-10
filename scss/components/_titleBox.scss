@@ -16,5 +16,8 @@
   .title-box__subtitle {
     max-width: 621px;
     margin: 0 auto;
+    &.align {
+      padding: 0 15px;
+    }
   }
 }

@@ -1,0 +1,21 @@
+.section {
+  position: relative;
+}
+
+.section__bg--left {
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40%;
+    height: 100%;
+    background-color: #F0F9FE;
+    border-radius: 0 40px 40px 0;
+    z-index: -1;
+    @media (max-width: 767px) {
+      width: 100%;
+      border-radius: 0;
+    }
+  }
+}

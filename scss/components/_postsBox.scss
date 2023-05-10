@@ -7,25 +7,6 @@
     img {
       width: 100%;
     }
-    .img__decor {
-      position: absolute;
-      left: 0;
-      bottom: -6px;
-      display: flex;
-      .img__decor-rectangle {
-        color: $colorWhite;
-        font-size: 13px;
-        font-weight: 500;
-        padding: 3px 15px;
-        background-color: $colorPrimary;
-      }
-      .img__decor-triangle {
-        width: 0;
-        height: 0;
-        border-bottom: 19px solid #393F96;
-        border-right: 12px solid transparent;
-      }
-    }
   }
   .posts-box__content {
     padding: 15px;
@@ -44,5 +25,24 @@
         font-size: 4px;
       }
     }
+  }
+}
+.decor {
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  display: flex;
+  .decor__rectangle {
+    color: $colorWhite;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 3px 15px;
+    background-color: $colorPrimary;
+  }
+  .decor__triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 19px solid #393F96;
+    border-right: 12px solid transparent;
   }
 }
