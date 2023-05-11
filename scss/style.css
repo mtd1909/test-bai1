@@ -303,22 +303,41 @@ button {
   position: relative;
 }
 
-.section__bg--left:before {
-  content: "";
+.section__wrap {
+  position: relative;
+}
+
+.section__bg {
   position: absolute;
-  left: 0;
   top: 0;
   width: 40%;
   height: 100%;
-  background-color: #F0F9FE;
-  border-radius: 0 40px 40px 0;
   z-index: -1;
 }
+
+.section__bg--left {
+  left: 0;
+  border-radius: 0 40px 40px 0;
+}
 @media (max-width: 767px) {
-  .section__bg--left:before {
+  .section__bg--left {
     width: 100%;
     border-radius: 0;
   }
+}
+
+.section__bg--full {
+  border-radius: 40px;
+  left: 0;
+  width: 100%;
+}
+
+.section__bg--pink {
+  background-color: #FCF3EC;
+}
+
+.section__bg--light-blue {
+  background-color: #F0F9FE;
 }
 
 .decor {
@@ -465,8 +484,6 @@ button {
 }
 
 .features {
-  background-color: #FCF3EC;
-  border-radius: 40px;
   padding: 85px 55px 90px 55px;
 }
 @media (max-width: 1199px) {
